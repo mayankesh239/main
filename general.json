@@ -3,7 +3,7 @@
         {"name":"Password","regexPattern":".*password.*", "sensitive":false, "onKey": true},
         {"name":"Username","regexPattern":".*username.*", "sensitive":true, "onKey": true},
         {"name":"token","regexPattern":".*token.*", "sensitive":true, "onKey": true},
-        {"name":"secret","regexPattern":".*secret.*", "sensitive":true, "onKey": true},
+        {"name":"secret","regexPattern":".*secret .*", "sensitive":true, "onKey": true},
         {"name":"database","regexPattern":".*database.*", "sensitive":true, "onKey": true},
         {"name":"aadharcard","regexPattern":".*[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9].*", "sensitive":true, "onKey": true}
     ]
