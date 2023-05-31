@@ -1,6 +1,6 @@
 {
     "types": [
-        {"name":"Password","regexPattern":".*password.*", "sensitive":false, "onKey": true},
+        {"name":"Password","regexPattern":".*password.*", "sensitive":false , "onKey": true},
         {"name":"Username","regexPattern":".*username.*", "sensitive":true, "onKey": true},
         {"name":"token","regexPattern":".*token.*", "sensitive":true, "onKey": true},
         {"name":"secret","regexPattern":".*secret .*", "sensitive":true, "onKey": true},
